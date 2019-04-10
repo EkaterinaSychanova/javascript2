@@ -60,13 +60,13 @@ class GoodsList {
   }
   
 /**
- * Создаю экземпляр класса GoodsList, вызваю для него метод fetchGoods, чтобы записать список товаров в свойство goods
+ * Создть экземпляр класса GoodsList, вызваю для него метод fetchGoods
  */
 const list = new GoodsList();
 list.fetchGoods();
 
 /**
- * вызваю render() метода fetchGoods
+ * вызов render() метода fetchGoods
  */
 window.onload = () => {
   list.render()
